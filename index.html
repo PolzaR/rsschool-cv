@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>CV</h1>
+	<main>
+		<div>
+			<p>Name: Polina Zakaryan</p>
+			<p>Phone number: +79009017949</p>
+			<p>Summary: I am a well-organized, goal-seeking student, who has a quest for new knowledge. My goal is to get a job as a Junior Developer during the year.</p>
+			<p>Skills: HTML, CSS, Javascript</p>
+			<p>Work experience: none</p>
+			<p>Education: Epam - JavaScript Development (Ryazan)</p>
+			<p>English: B2</p>
+		</div>
+		<div>
+			<img src="avatar.png">
+		</div>
+		
+		<div>
+			<p>Code examples:</p>
+			<pre>
+				var Calculator = (function() {
+				 	var currentValue = 0;
+				 	return {
+				     add: function add(x) {
+				         if ( typeof (x) == "undefined" ) {
+				             x = 0;
+				         };
+				         currentValue = currentValue + x;
+				         return add;
+				     },
+				     subtract: function subtract(x) {
+				         if ( typeof (x) == "undefined" ) {
+				             x = 0;
+				         };
+				         currentValue = currentValue - x;
+				         return subtract;
+				     },
+				     multiply: function multiply(x) {
+				         if ( typeof (x) == "undefined" ) {
+				             x = 0;
+				         };
+				         currentValue = currentValue * x;
+				         return multiply;
+				     },
+				     divide: function divide(x) {
+				         if ( typeof (x) == "undefined" ) {
+				             x = 0;
+				         };
+				         currentValue = currentValue / x;
+				         return divide;
+				     },
+				     getResult: function getResult() {
+				         return currentValue;
+				     },
+				     reset: function reset() {
+				         currentValue = 0;
+				         return currentValue;
+				     }
+				 }
+				})();
+			</pre>
+		</div>
+			
+	</main>
+</body>
+</html>
