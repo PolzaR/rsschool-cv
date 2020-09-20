@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	padding: 20px;
+	/*background: silver;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr;
+}
+h1 {
+	padding: 20px;
+	text-align: center;
+}
+p {
+	font: 20px sans-serif;
+	margin-top: 10px;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
